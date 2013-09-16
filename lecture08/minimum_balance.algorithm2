@@ -1,3 +1,8 @@
+Please note that these options do not fulfill this requirement in the lecture notes:
+ask the user only if a minimum balance fee needs to be charged
+Since this wasn't made clear during lecture I just left it out of the following examples so it's more inline with your train of thought during class.
+
+
 option 1:
 get account type and account balance
 
