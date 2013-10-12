@@ -76,15 +76,10 @@ main() {
 }
 
 float net_balance(float account_balance, float minimum_balance_fee) {
-  
-  return account_balance - minimum_balance_fee;
+  float net_balance = account_balance - minimum_balance_fee;
+  return net_balance;
 }
 
 float minimum_bal_perc(float total_minimum_balance_fees, float total_amount_in_accounts) {
   return (total_minimum_balance_fees / total_amount_in_accounts * 100);
-}
-
-float net_balance(float account_balance, float minimum_balance_fee) {
-  account_balance - minimum_balance_fee;  
-  return (float) x;
 }
