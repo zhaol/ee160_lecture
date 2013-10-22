@@ -1,0 +1,22 @@
+while there are more accounts to be checked
+  check if the account is a saving account
+    if yes, then
+      check if the account balance is less than $1000
+        if yes, then
+          tell the teller to charge the minimum balance fee
+        otherwise
+          tell the teller to not charge the minimum balance fee
+  otherwise (assume) the account is a checking account
+    check if the account balance is less than $500
+      if yes, then
+        tell the teller to charge the minimum balance fee
+        //here3
+      otherwise
+        tell the teller to not charge the minimum balance fee
+        //here2
+  // here1 [HERE]
+  display account summary for individual account
+  update accounts summary information
+  ask the user if there are more accounts to be checked
+display accounts summary information
+// display here
