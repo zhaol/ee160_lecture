@@ -21,7 +21,7 @@ int main() {
   
   while (exit_program_flag == CONTINUE_PROGRAM) {
     printf("Please enter account holder name:\n");
-    scanf("%s", &account_holder);
+    scanf("%s", account_holder);
     
     account_balance = get_account_balance();
     account_type = get_account_type();
@@ -32,6 +32,7 @@ int main() {
       minimum_balance_fee_charged_flag = is_account_below_minimum_balance(account_balance, CHECKING_ACCOUNT_MINIMUM_BALANCE);
     }  
     
+    printf("=== %s's account information ===\n", account_holder);
     // Display account summary information
     if (minimum_balance_fee_charged_flag) {
       total_accounts_with_minimum_balance_fees++;
