@@ -1,0 +1,23 @@
+check if number is greater than 100
+  when true
+    while counter is less than 5
+      display counter
+      increment counter
+  otherwise
+    while counter is less than 10
+      display counter
+      increment counter
+      
+if(number > 100) {
+  my_function ();
+} else {
+  my_function ();
+}
+
+int my_function () {
+  counter=0;
+  while(counter<5) {
+    printf();
+    counter++;
+  }
+}
