@@ -19,6 +19,7 @@ int main() {
     // read in audio data and write modified audio data to file
     while(fscanf(input_file_pointer, "%d", &sound_value) != EOF) {
       fprintf(output_file_pointer, "%d\n", (int)(sound_value * VOLUME_REDUCTION_FACTOR));
+      //fprintf(output_file_pointer, "%d\n", sound_value - VOLUME_REDUCTION_FACTOR);
     }
     
     fclose(input_file_pointer);
