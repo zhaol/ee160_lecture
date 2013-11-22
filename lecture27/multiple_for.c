@@ -10,5 +10,5 @@ int main () {
     printf("index: %d, index2: %d\n", index, index2);
   }
   
-  return 0;  
+  return 0; 
 }
