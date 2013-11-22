@@ -1,0 +1,2 @@
+#define WINNER_IS_FOUND 1
+#define WINNER_NOT_FOUND -1
