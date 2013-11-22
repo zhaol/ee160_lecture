@@ -5,6 +5,7 @@
 int main () {
   char word[10];  
   
+  printf("Enter word: ");
   scanf("%s", word);
   
   int counter = 0;
@@ -12,6 +13,5 @@ int main () {
     printf("%c\n", word[counter]);
     counter++;
   }
-  
   return 0;
 }
