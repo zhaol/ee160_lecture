@@ -1,0 +1,11 @@
+do
+
+  get manager input
+  if input is 0
+    remove first customer in line
+  otherwise
+    add customer to the end of the line
+    
+  print out customers in line
+
+until input is -1
