@@ -1,1 +1,0 @@
-void tweet(char string[]);
