@@ -44,7 +44,7 @@ main() {
     if (minimum_balance_fee_charged) {
       cumulative_minimum_balance_fees = cumulative_minimum_balance_fees + minimum_balance_fee; 
       total_number_of_accounts_charged = total_number_of_accounts_charged + 1;
-      printf("minimum_balance_fee / account_balance: %.2f%%\n", 100.0 * minimum_balance_fee / (int) account_balance);
+      printf("minimum_balance_fee / account_balance: %.2f%%\n", 100 * minimum_balance_fee / account_balance);
     }
     
     // Update account summary information
@@ -65,7 +65,9 @@ main() {
   printf ("The total number of accounts: %d\n", total_number_of_accounts);
   printf ("The total amount in all accounts: $%.2f\n", total_amount_in_accounts);
   printf("cumulative_minimum_balance_fees / total_amount_in_accounts * 100: %.2f%%\n", cumulative_minimum_balance_fees / total_amount_in_accounts * 100);
+  printf("total_number_of_accounts_charged / total_number_of_accounts * 100: %.2f%%\n", 100 * (float) total_number_of_accounts_charged / total_number_of_accounts);
   printf("total_number_of_accounts_charged / total_number_of_accounts * 100: %.2f%%\n", 100.0 * total_number_of_accounts_charged / total_number_of_accounts);
+  printf("total_number_of_accounts_charged / total_number_of_accounts * 100: %.2f%%\n", total_number_of_accounts_charged / total_number_of_accounts * 100.0);
   
   /*
   the percentage of minimum balance fees relative to the total amount in all accounts
