@@ -20,7 +20,7 @@ int simple_function(int input_argument) {
 
 float your_function(int integer, float decimal, char character) {
     printf("integer: %d\n", integer);
-    printf("decimal: %f\n", decimal); //needs to be fixed
+    printf("decimal: %f\n", decimal); // can be fixed with %.2f
     printf("character: %c\n", character);
     return decimal;
 }
