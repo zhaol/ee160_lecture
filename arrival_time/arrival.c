@@ -133,7 +133,8 @@ Understand the problem: This program is given the flight departure time in Honol
        You will land at 15:30
        Enter departure time
                in hours minutes (24 hour time, EOF to quit): ^D
-*
+*/
+/* my attempt
 #include <stdio.h>
 
 int main () {
