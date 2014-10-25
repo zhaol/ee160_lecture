@@ -25,6 +25,7 @@ int main () {
           }
         }
       }
+      printf("DEBUG: %s\n", word);
       index_compared_against++;
     }
     
