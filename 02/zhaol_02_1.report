@@ -1,0 +1,7 @@
+Output did not correctly output: It was nice meeting you, world.
+-> -10
+Output did not correctly output: Hope to see you again soon. :-\
+-> -30
+Output did not correctly output: Don't forget to write.
+-> -10
+Assignment Grade: 50
