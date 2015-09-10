@@ -1,0 +1,20 @@
+understand homework 1
+understand homework 2
+if homework1 deadline is earlier
+    do homework 1
+else
+    if homework 1 is worth more
+        do homework 1
+    else
+        if homework 1 is less difficult
+            do homework 1
+        else
+            if homework 1 requires less time
+                do homewok 1
+            else
+                do homework 2
+            end
+        end
+    end
+end
+

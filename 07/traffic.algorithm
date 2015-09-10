@@ -1,0 +1,17 @@
+look for pedestrians
+inspect traffic light
+if light is green
+    then go
+    look both ways
+    if car is running red light
+        stop
+    end
+else
+    if light is yellow
+        slow down
+        stop
+    else
+        stop
+    end
+    stop
+end
