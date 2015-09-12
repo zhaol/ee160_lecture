@@ -1,0 +1,13 @@
+check if the account is a saving account
+  if yes, then
+    check if the account balance is less than $1000
+      if yes, then
+        tell the teller to charge the minimum balance fee
+      otherwise
+        tell the teller to not charge the minimum balance fee
+  otherwise (assume) the account is a checking account
+    check if the account balance is less than $500
+      if yes, then
+        tell the teller to charge the minimum balance fee
+      otherwise
+        tell the teller to not charge the minimum balance fee

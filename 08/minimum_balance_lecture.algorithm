@@ -1,0 +1,30 @@
+it needs to check if the account is a saving account
+it needs to check if the account is a checking account
+it needs to check if the account balance is less than $1,000 for saving account
+it needs to check if the account balance is less than $500 for checking account
+What are some tasks the program need to do:
+it needs to display a message to tell the teller to charge a minimum balance
+it needs to display a message to tell the teller to not charge a minimum balance
+
+---
+
+reads in account type
+reads in account balance
+
+if the account is a saving account
+    if account_balance < 1000
+        teller to charge minimum balance
+    else
+        tell teller not to charge minimum balance
+//if the account is a checking account
+else
+    if account_balance < 500
+        teller to charge minimum balance
+    else
+        tell teller not to charge minimum balance
+        
+
+if account balance is less than 500
+    teller to charge minimum balance
+else
+    if savings/checking ....
